@@ -1,5 +1,18 @@
 @import "tailwindcss";
+@theme {
+    --color-black:#000 ;
+    --color-black-100:#000319 ;
+    --color-black-200:rgba(17, 25, 40, 0.75) ;
+    --color-black-300:rgba(255, 255, 255, 0.125) ;
 
+    --color-white:#FFF ;
+    --color-white-100:#BEC1DD ;
+    --color-white-200:#C1C2D3 ;
+
+    --color-blue-100:#E4ECFF ;
+
+    --color-purple:#CBACF9 ;
+}
 @theme inline {
     --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
 }
@@ -15,17 +28,46 @@
     }
 }
 
-@theme {
-    --color-black:#000 ;
-    --color-black-100:#000319 ;
-    --color-black-200:rgba(17, 25, 40, 0.75) ;
-    --color-black-300:rgba(255, 255, 255, 0.125) ;
+@theme inline {
+    --animate-first: moveVertical 30s ease infinite;
+    --animate-second: moveInCircle 20s reverse infinite;
+    --animate-third: moveInCircle 40s linear infinite;
+    --animate-fourth: moveHorizontal 40s ease infinite;
+    --animate-fifth: moveInCircle 20s ease infinite;
 
-    --color-white:#FFF ;
-    --color-white-100:#BEC1DD ;
-    --color-white-200:#C1C2D3 ;
+    @keyframes moveHorizontal {
+        0% {
+            transform: translateX(-50%) translateY(-10%);
+        }
+        50% {
+            transform: translateX(50%) translateY(10%);
+        }
+        100% {
+            transform: translateX(-50%) translateY(-10%);
+        }
+    }
 
-    --color-blue-100:#E4ECFF ;
+    @keyframes moveInCircle {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(180deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
 
-    --color-purple:#CBACF9 ;
+    @keyframes moveVertical {
+        0% {
+            transform: translateY(-50%);
+        }
+        50% {
+            transform: translateY(50%);
+        }
+        100% {
+            transform: translateY(-50%);
+        }
+    }
 }
