@@ -113,3 +113,104 @@ export const projects = [
 
 ];
 
+export const testimonials = [
+    {
+        quote:
+            "Esta seção será dedicada a relatos reais de clientes com quem tive o prazer de colaborar. Aqui, compartilho os resultados e aprendizados que construímos juntos.",
+        name: "Depoimentos futuros",
+        title: "Clientes e parceiros",
+    },
+    {
+        quote:
+            "Cada projeto traz novos desafios e conquistas. Após a entrega, os clientes poderão deixar aqui seu feedback — ajudando outras pessoas a conhecerem meu trabalho.",
+        name: "Espaço reservado para você",
+        title: "Depoimento profissional",
+    },
+    {
+        quote:
+            "Esta área está sendo preparada para mostrar a confiança e a satisfação dos parceiros que acreditaram no meu trabalho. Que tal escrever a próxima história comigo?",
+        name: "Próximo cliente satisfeito",
+        title: "Experiência em destaque",
+    },
+];
+
+
+export const companies = [
+    {
+        id: 1,
+        name: "cloudinary",
+        img: "/cloud.svg",
+        nameImg: "/cloudName.svg",
+    },
+    {
+        id: 2,
+        name: "appwrite",
+        img: "/app.svg",
+        nameImg: "/appName.svg",
+    },
+    {
+        id: 3,
+        name: "HOSTINGER",
+        img: "/host.svg",
+        nameImg: "/hostName.svg",
+    },
+    {
+        id: 4,
+        name: "stream",
+        img: "/s.svg",
+        nameImg: "/streamName.svg",
+    },
+    {
+        id: 5,
+        name: "docker.",
+        img: "/dock.svg",
+        nameImg: "/dockerName.svg",
+    },
+];
+
+export const workExperience = [
+    {
+        id: 1,
+        title: "Desenvolvedor Front-end (Estágio)",
+        desc: "Atuei no desenvolvimento de interfaces responsivas com Angular e TailwindCSS, contribuindo na entrega de componentes reutilizáveis e otimizados para SEO.",
+        className: "md:col-span-2",
+        thumbnail: "/exp1.svg",
+    },
+    {
+        id: 2,
+        title: "Desenvolvedor Mobile - Playground",
+        desc: "Participei da criação de um app mobile com React Native e Expo, entregando funcionalidades nativas e responsivas para Android e iOS.",
+        className: "md:col-span-2",
+        thumbnail: "/exp2.svg",
+    },
+    {
+        id: 3,
+        title: "Projeto Freelance - App Delivery",
+        desc: "Desenvolvi uma aplicação full-stack para delivery local, utilizando NestJS, Firebase e Angular, com autenticação, pedidos em tempo real e painel administrativo.",
+        className: "md:col-span-2",
+        thumbnail: "/exp3.svg",
+    },
+    {
+        id: 4,
+        title: "Desenvolvedor Front-end (Projeto Pessoal)",
+        desc: "Liderei a construção de um sistema de gestão com Angular 20, SSR, e backend em NestJS com Prisma e MySQL, focando em performance e boas práticas.",
+        className: "md:col-span-2",
+        thumbnail: "/exp4.svg",
+    },
+];
+
+
+export const socialMedia = [
+    {
+        id: 1,
+        img: "/git.svg",
+    },
+    {
+        id: 2,
+        img: "/twit.svg",
+    },
+    {
+        id: 3,
+        img: "/link.svg",
+    },
+];

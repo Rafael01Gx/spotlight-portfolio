@@ -8,7 +8,7 @@ import {PinContainer} from "@/components/ui/3d-pin";
 
 const RecentProjects = () => {
     return (
-        <div className="py-20">
+        <div className="py-20" id="projects">
             <h1 className="heading">
                 Uma pequena seleção de{" "}
                 <span className="text-purple">projetos recentes</span>
