@@ -12,8 +12,8 @@ Sentry.init({
     Sentry.replayIntegration(),
     Sentry.feedbackIntegration({
       colorScheme: "dark",
-      triggerLabel:"Reportar um Bug",
-      triggerAriaLabel:"Reportar um Bug",
+      triggerLabel:"",
+      triggerAriaLabel:"",
       formTitle:"Reportar Bug",
       nameLabel:"Nome",
       namePlaceholder:"Digite seu nome",
