@@ -16,15 +16,15 @@ const Hero = () => {
             </div>
 
             <div
-                className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+                className="h-screen w-full bg-black-100  bg-grid-white/[0.03]
        absolute top-0 left-0 flex items-center justify-center">
                 <div
                     className={cn(
                         "absolute inset-0",
                         "[background-size:40px_40px]",
-                        "[background-image:radial-gradient(#d4d4d4_1px,transparent_1px)]",
-                        "dark:[background-image:radial-gradient(#404040_1px,transparent_1px)]",
-                        "pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"
+
+                        "[background-image:radial-gradient(#404040_1px,transparent_1px)]",
+                        "pointer-events-none absolute inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] bg-black-100"
                     )}
                 />
             </div>
